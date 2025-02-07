@@ -116,49 +116,49 @@ void __fastcall TMainForm::FormClose(TObject *Sender, TCloseAction &Action)
 //---------------------------------------------------------------------------
 void __fastcall TMainForm::BtnPlotClick(TObject *Sender)
 {
-    UnicodeString cmd1="rtkplot",cmd2="..\\..\\..\\bin\\rtkplot",opts="";
+	UnicodeString cmd1="rtkplot",cmd2="..\\..\\..\\..\\bin\\rtkplot",opts="";
     
     if (!ExecCmd(cmd1+opts)) ExecCmd(cmd2+opts);
 }
 //---------------------------------------------------------------------------
 void __fastcall TMainForm::BtnConvClick(TObject *Sender)
 {
-    UnicodeString cmd1="rtkconv",cmd2="..\\..\\..\\bin\\rtkconv",opts="";
+	UnicodeString cmd1="rtkconv",cmd2="..\\..\\..\\..\\bin\\rtkconv",opts="";
     
     if (!ExecCmd(cmd1+opts)) ExecCmd(cmd2+opts);
 }
 //---------------------------------------------------------------------------
 void __fastcall TMainForm::BtnStrClick(TObject *Sender)
 {
-    UnicodeString cmd1="strsvr",cmd2="..\\..\\..\\bin\\strsvr",opts="";
+	UnicodeString cmd1="strsvr",cmd2="..\\..\\..\\..\\bin\\strsvr",opts="";
     
     if (!ExecCmd(cmd1+opts)) ExecCmd(cmd2+opts);
 }
 //---------------------------------------------------------------------------
 void __fastcall TMainForm::BtnPostClick(TObject *Sender)
 {
-    UnicodeString cmd1="rtkpost",cmd2="..\\..\\..\\bin\\rtkpost",opts="";
+	UnicodeString cmd1="rtkpost",cmd2="..\\..\\..\\..\\bin\\rtkpost",opts="";
     
     if (!ExecCmd(cmd1+opts)) ExecCmd(cmd2+opts);
 }
 //---------------------------------------------------------------------------
 void __fastcall TMainForm::BtnNtripClick(TObject *Sender)
 {
-    UnicodeString cmd1="srctblbrows",cmd2="..\\..\\..\\bin\\srctblbrows",opts="";
+	UnicodeString cmd1="srctblbrows",cmd2="..\\..\\..\\..\\bin\\srctblbrows",opts="";
     
     if (!ExecCmd(cmd1+opts)) ExecCmd(cmd2+opts);
 }
 //---------------------------------------------------------------------------
 void __fastcall TMainForm::BtnNaviClick(TObject *Sender)
 {
-    UnicodeString cmd1="rtknavi",cmd2="..\\..\\..\\bin\\rtknavi",opts="";
+    UnicodeString cmd1="rtknavi",cmd2="..\\..\\..\\..\\bin\\rtknavi",opts="";
     
     if (!ExecCmd(cmd1+opts)) ExecCmd(cmd2+opts);
 }
 //---------------------------------------------------------------------------
 void __fastcall TMainForm::BtnGetClick(TObject *Sender)
 {
-    UnicodeString cmd1="rtkget",cmd2="..\\..\\..\\bin\\rtkget",opts="";
+    UnicodeString cmd1="rtkget",cmd2="..\\..\\..\\..\\bin\\rtkget",opts="";
     
     if (!ExecCmd(cmd1+opts)) ExecCmd(cmd2+opts);
 }
